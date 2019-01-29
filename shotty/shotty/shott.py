@@ -5,3 +5,4 @@ if __name__ == '__main__':
     ec2 = session.resource('ec2')
     for i in ec2.instances.all():
         print(i)
+input()
